@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mudacor{
+    position: relative;
+    top: 300px;
+
+    background-color: white;
+    border: black solid 2px;
+
+    padding: 20px 40px;
+}
