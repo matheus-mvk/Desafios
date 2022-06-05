@@ -9,17 +9,17 @@ function ativar(msg){
     message.innerText = msg;
     divMessage.appendChild(message);
 
-    // Loading
-    //const load = document.createElement("div");
-    //load.classList.add("loading");
+    //Loading
+    const load = document.createElement("div");
+    load.classList.add("loading");
     
-    //divMessage.appendChild(load)
+    divMessage.appendChild(load)
 
     
 
     setTimeout(()=>{
         message.style.display = "none";
-        //load.style.display = "none";
+        load.style.display = "none";
     }, 3000)
 }
 
